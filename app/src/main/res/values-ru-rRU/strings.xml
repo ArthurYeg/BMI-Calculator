@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор ИМТ</string>
+    <string name="tv_title">Калькулятор ИМТ</string>
+    <string name="tv_height">ВЫСОТА (СМ)</string>
+    <string name="tv_weight">ВЕС (КГ)</string>
+    <string name="btn_click">Рассчитать</string>
+    <string name="tv_mass">ИМТ Результат</string>
+    <string name="enter_the_weight">Введите вес</string>
+    <string name="enter_the_height">Введите рост</string>
+    <string name="Please_enter_your_height">Пожалуйста, введите свой рост</string>
+    <string name="Please_enter_your_weight">Пожалуйста, введите свой вес</string>
+    <string name="You_clicked_the_button">Вы нажали кнопку</string>
+    <string name="Severely_underweight">Сильно недостаточный вес</string>
+    <string name="Underweight">недостаточный вес</string>
+    <string name="Normal">Нормальный</string>
+    <string name="Overweight">Избыточный вес</string>
+    <string name="Obese">Тучный</string>
+
+</resources>

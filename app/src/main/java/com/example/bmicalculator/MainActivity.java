@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 float height = Float.parseFloat(et_heightstr) / 100;
 
                 //Calculate BMI value
-                float bmiValue = calculateBMI(weight, height);
+                float bmiValue = BMI(weight, height);
 
                 //Define the meaning of the bmi value
                 String bmiInterpretation = interpretBMI(bmiValue);
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Calculate BMI
-    private float calculateBMI(float weight, float height) {
+    private float BMI(float weight, float height) {
         return (float) (weight / (height * height));
     }
 
